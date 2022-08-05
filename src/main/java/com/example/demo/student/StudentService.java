@@ -6,7 +6,9 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDate;
 import java.time.Month;
 
-@Service
+//Service Layer
+
+@Service //Could also be @Component annotation but @Service is more specific to the class
 public class StudentService {
     public Student getStudent(){
         return
